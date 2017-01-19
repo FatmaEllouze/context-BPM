@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="myonto" IRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto#"/>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environemental_context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workforce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immediate_Context"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#primarySubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#isSubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Policy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal_Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vision"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#isPrimarySubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Economical_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Availability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budget_Constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External_Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Payment_Method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Availability"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget_Constraint"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contract"/>
+        <Class IRI="#External_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cost"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Economical_Environment"/>
+        <Class IRI="#Environemental_context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environemental_context"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External_Context"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immediate_Context"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal_Context"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Environemental_context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mission"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Payment_Method"/>
+        <Class IRI="#External_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policy"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Price"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulation"/>
+        <Class IRI="#External_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skill"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <Class IRI="#External_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategy"/>
+        <Class IRI="#Internal_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structure"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vision"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather_Condition"/>
+        <Class IRI="#Environemental_context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workforce"/>
+        <Class IRI="#Environemental_context"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Context_Element"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immediate_Context"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context_Element"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immediate_Context"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
