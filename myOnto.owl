@@ -1,0 +1,3690 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="myonto" IRI="http://www.semanticweb.org/dell/ontologies/2016/6/myOnto#"/>
+    <Declaration>
+        <DataProperty IRI="#has_value_pipeline_material"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diver_Qualification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#subject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_depth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immediate_Context"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#primarySubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_carried"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pipeline_material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skill"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#isSubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_of_Diving"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_suit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_technique_of_installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Length"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#isPrimarySubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diving_Suit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value_substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technique_of_Installation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Depth"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depth"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depth"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diver_Qualification"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diver_Qualification"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diver_Qualification"/>
+        <Class IRI="#Skill"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diving_Suit"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diving_Suit"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immediate_Context"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Length"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Length"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Length"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_of_Diving"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_of_Diving"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pipeline_material"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skill"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skill"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_carried"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_carried"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technique_of_Installation"/>
+        <Class IRI="#Context_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technique_of_Installation"/>
+        <Class IRI="#Immediate_Context"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Pipeline_material"/>
+        <NamedIndividual IRI="#P3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context_Element"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immediate_Context"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Substance_carried"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context_Element"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immediate_Context"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique_of_Installation"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#memberList"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_depth"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_depth"/>
+        <Class IRI="#Depth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_depth"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_depth"/>
+        <Class IRI="#Measure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_length"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_length"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_length"/>
+        <Class IRI="#Length"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_length"/>
+        <Class IRI="#Measure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_method"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_method"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_method"/>
+        <Class IRI="#Method_of_Diving"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_pipeline_material"/>
+        <Class IRI="#Pipeline_material"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_substance"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_substance"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_substance"/>
+        <Class IRI="#Substance_carried"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_suit"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_suit"/>
+        <Class IRI="#Diving_Suit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_suit"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_technique_of_installation"/>
+        <Class IRI="#Context_Element"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_technique_of_installation"/>
+        <Class IRI="#Immediate_Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_value_technique_of_installation"/>
+        <Class IRI="#Technique_of_Installation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_depth"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_length"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_pipeline_material"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_substance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_suit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_value_technique_of_installation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V6AA13-- Ass6</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss10</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.6</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V6AA13 --Ass6</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss9</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.6</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V7IP4 -- SAR7</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.7</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V6IP4 -- SAR6</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.6</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V4AA13 --Ass4</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.4</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V4AA13 --Ass4</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.4</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V4IP4 -- SAR4</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.4</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V9AA13 -- Ass9</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss16</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.9</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V9AA13-- Ass9</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss15</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.9</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V11IP4 -- SAR11</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR11</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.11</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V8IP4 -- SAR8</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.8</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V7AA13 --Ass7</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss12</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.7</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V7AA13 --Ass7</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss11</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.7</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V9IP4 -- SAR9</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR9</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.9</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V5AA13 --Ass5</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.5</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V5AA13 --Ass5</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.5</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V5IP4 -- SAR5</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.5</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V10AA13 --Ass10</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss18</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.10</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V10AA13 --Ass10</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss17</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.10</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V12IP4 -- SAR12</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR12</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.12</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V3AA13 --Ass3</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.3</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V3AA13 --Ass3</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.3</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V3IP4 -- SAR3</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.3</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1AA13-- Ass1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.1</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1IP4 -- SAR1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.1</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V8AA13 --Ass8</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss14</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.8</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V8AA13-- Ass8</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss13</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.8</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V10IP4 -- SAR10</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR10</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.10</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA13 --Ass2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActAss2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ass.2</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2IP4 -- SAR2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarProcIPSAR2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <Variable IRI="#b"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SAR.2</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inferer sur la technique avec Petrol</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inferer sur la technique avec Petrol</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inferer sur la technique avec water</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sliding</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V4AA14-- Lay4</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V4AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V6AA14-- Lay6</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V6AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA14 --Lay2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V5AA14-- Lay5</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V5AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V7AA14 --  Lay7</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V7AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V3AA14-- Lay 3</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V3AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1AA14-- Lay1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActLay1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Depth"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_depth"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1AA14</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">si long&lt;5 alors EAU</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S9</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Length"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_length"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">si Eau alos material est PEHD</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S10</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <NamedIndividual IRI="#S3"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <NamedIndividual IRI="#S3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Pipeline_material"/>
+                <NamedIndividual IRI="#P3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_pipeline_material"/>
+                <NamedIndividual IRI="#P3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HDPE</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">si PEHD alors floating</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S11</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Pipeline_material"/>
+                <NamedIndividual IRI="#P3"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_pipeline_material"/>
+                <NamedIndividual IRI="#P3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HDPE</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Technique_of_Installation"/>
+                <NamedIndividual IRI="#T3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_technique_of_installation"/>
+                <NamedIndividual IRI="#T3"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA15 --Control2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActControl3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gas</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA15</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA15 --Control2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActControl2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petrol</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V2AA15</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1AA15 -- Control1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SarActControl1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Substance_carried"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_value_substance"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#e"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase">
+                <Variable IRI="#e"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Water</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V1AA15</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Depth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dep</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
